@@ -1,0 +1,82 @@
+header {
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1 p {
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+}
+.active {
+    color: white;
+}
+.hidden {
+    display: none;
+}
+.ava img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+}
+.thongtin {
+    padding-top: 12px;
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.login-and-regis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.express {
+    outline: none;
+    border: none;
+    background-color: white;
+}
+.express i {
+    color: grey;
+}
+.express i:hover {
+    color: red;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.archive {
+    display: flex;
+    justify-content: center;
+}
+.above {
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+}
+.below {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
